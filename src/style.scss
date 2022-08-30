@@ -1,0 +1,36 @@
+@import 'vanilla-framework';
+@include vanilla;
+
+.p-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.p-card .p-card__heading {
+  border-radius: 2px;
+  border-top: 3px solid #A87DA0;
+  padding: 16px 16px 8px;
+}
+
+.p-card .p-card__content {
+  border-top: 1px dotted #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0px 8px;
+  padding: 16px 8px 8px;
+}
+
+.p-card>.p-card__content h3, .p-card>.p-card__content>a {
+  display: block;
+  margin: 8px 0px;
+}
+
+.p-card .p-card__footer {
+  border-top: 1px dotted #d9d9d9;
+  font-size: 14px;
+  margin: auto 8px 0px;
+  padding: 16px 8px;
+}
