@@ -1,4 +1,4 @@
-# Canonical Code Test
+# Canonical Blog Posts
 
 Reproduce the given design of three blog posts in cards.
 
